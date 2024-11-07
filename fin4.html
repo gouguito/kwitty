@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kwitty - The Kitty Meme Coin</title>
+    <link href="https://fonts.googleapis.com/css2?family=Georgia:wght@400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        /* Global Styles */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Georgia', serif;
+            background-color: #fff;
+            color: #333;
+            overflow-x: hidden;
+        }
+
+        /* Background GIF */
+        .header {
+            background: url('https://media1.tenor.com/m/V7pkXloRC9AAAAAd/chubbiverse-chubbicat.gif') no-repeat center center/cover;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            text-align: center;
+        }
+
+        /* Main Title - Kwitty at the top */
+        .main-title {
+            position: absolute;
+            top: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 10rem;
+            color: #ff66b3;
+            font-weight: bold;
+            letter-spacing: 3px;
+            padding: 10px;
+            cursor: pointer;
+            transition: color 0.3s ease-in-out, text-shadow 0.3s ease-in-out;
+        }
+
+        /* Hover effect on title (color and shadow change) */
+        .main-title:hover {
+            color: #ff33a6;
+            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
+        }
+
+        /* Subtitle for The Kitty on Solana */
+        .subtitle {
+            font-size: 2rem;
+            color: black; /* Black color for the text */
+            font-weight: bold;
+            border: 3px solid #ff66b3;
+            border-radius: 10px;
+            padding: 10px;
+            background: rgba(255, 255, 255, 0.7);
+            position: absolute;
+            top: 100px; /* Adjusted position */
+            left: 10px; /* Align to the left side */
+        }
+
+        /* Corner Texts */
+        .corner-text {
+            background: #ffe6f2;
+            border: 3px solid #ff66b3;
+            padding: 15px;
+            border-radius: 10px;
+            width: 250px;
+            font-family: 'Poppins', sans-serif;
+            font-weight: bold;
+            color: black; /* Text in black */
+            text-align: center;
+            transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+            margin-bottom: 10px;
+            font-size: 1.25rem;
+        }
+
+        /* Hover effect on corner text */
+        .corner-text:hover {
+            background-color: #ffccff;
+            box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.4);
+            cursor: pointer;
+        }
+
+        /* Positioning for corner texts */
+        .corner-text-top-right {
+            position: absolute;
+            top: 10%;
+            right: 10%;
+        }
+
+        .corner-text-left-bottom {
+            position: absolute;
+            bottom: 10%;
+            left: 10%;
+        }
+
+        .corner-text-right-bottom {
+            position: absolute;
+            bottom: 10%;
+            right: 10%;
+        }
+
+        /* Content Section with text boxes on each side */
+        .text-box-left-bottom {
+            position: absolute;
+            bottom: 10%; /* Adjusted for the new text to fit */
+            left: 10%;
+            text-align: left;
+        }
+
+        .text-box-right-bottom {
+            position: absolute;
+            bottom: 10%; /* Adjusted for the new text to fit */
+            right: 10%;
+            text-align: left;
+        }
+
+        .text-box {
+            background: #ffe6f2;
+            border: 3px solid #ff66b3;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+            font-size: 1rem;
+            width: 250px;
+            color: black;
+            font-family: 'Poppins', sans-serif;
+            transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        }
+
+        /* Hover effect on text boxes */
+        .text-box:hover {
+            color: #ff33a6;
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
+        }
+
+        /* Twitter link text style */
+        .twitter-link {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #1DA1F2;
+            font-size: 1.5rem;
+            font-weight: bold;
+            text-decoration: none;
+            transition: color 0.3s ease-in-out;
+        }
+
+        .twitter-link:hover {
+            color: #ff66b3;
+        }
+
+        /* Paragraph containing the four phrases */
+        .phrases-paragraph {
+            font-family: 'Poppins', sans-serif;
+            font-weight: bold;
+            font-size: 1.25rem;
+            text-align: center;
+            color: black;
+            margin-top: 20px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Background music from YouTube -->
+    <div style="display:none;">
+        <iframe width="0" height="0" src="https://www.youtube.com/embed/2yJgwwDcgV8?autoplay=1&loop=1&playlist=2yJgwwDcgV8" frameborder="0" allow="autoplay; encrypted-media"></iframe>
+    </div>
+
+    <!-- Header Section with background GIF -->
+    <div class="header">
+        <!-- Title of the Site with effects -->
+        <div class="main-title">Kwitty</div>
+    </div>
+
+    <!-- Subtitle for The Kitty on Solana -->
+    <div class="subtitle">
+        The Kitty on Solana
+        <a class="twitter-link" href="https://twitter.com/kwittycoin" target="_blank">
+            Twitter
+        </a>
+    </div>
+
+    <!-- Paragraph for the four phrases -->
+    <div class="phrases-paragraph">
+        Seek Kwitty | Dream Kwitty | Achieve Cuteness | Buy $Kwitty
+    </div>
+
+    <!-- Corner Right Text Section -->
+    <div class="corner-text-top-right">
+        <div class="corner-text">Seek Kwitty</div>
+        <div class="corner-text">Dream Kwitty</div>
+        <div class="corner-text">Achieve Cuteness</div>
+        <div class="corner-text">Buy $Kwitty</div>
+    </div>
+
+    <!-- Content Section with text boxes on each side -->
+    <div class="text-box-left-bottom">
+        <div class="text-box">
+            At Kwitty, we believe in more than just crypto – we believe in community. Our mission is to bring cat fans together, give them a place to share their love for all things kitty, and have fun along the way. With $Kwitty, you'll not only be investing in the future of meme coins but also joining a growing, vibrant community.
+        </div>
+    </div>
+    
+    <div class="text-box-right-bottom">
+        <div class="text-box">
+            Join the purr-fect crypto revolution with $Kwitty, the meme coin that’s taking over the kitty kingdom!
+        </div>
+    </div>
+
+</body>
+</html>
